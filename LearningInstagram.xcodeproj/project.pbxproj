@@ -17,6 +17,8 @@
 		E72DF7CF25E2024600F4CF1B /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DF7CE25E2024600F4CF1B /* UserProfileHeader.swift */; };
 		E72DF81625E3683900F4CF1B /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DF81525E3683900F4CF1B /* UserProfilePhotoCell.swift */; };
 		E72DF83B25E39F5300F4CF1B /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DF83A25E39F5300F4CF1B /* PreviewPhotoContainerView.swift */; };
+		E72DF83E25E3AE9B00F4CF1B /* CustomAnimationPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DF83D25E3AE9B00F4CF1B /* CustomAnimationPresentor.swift */; };
+		E72DF84125E3AEA100F4CF1B /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DF84025E3AEA100F4CF1B /* CustomAnimationDismisser.swift */; };
 		E7C870D925DCB66F00A25F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C870D825DCB66F00A25F07 /* AppDelegate.swift */; };
 		E7C870DB25DCB66F00A25F07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C870DA25DCB66F00A25F07 /* SceneDelegate.swift */; };
 		E7C870DD25DCB66F00A25F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C870DC25DCB66F00A25F07 /* ViewController.swift */; };
@@ -54,6 +56,9 @@
 		E72DF7CE25E2024600F4CF1B /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
 		E72DF81525E3683900F4CF1B /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
 		E72DF83A25E39F5300F4CF1B /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
+		E72DF83D25E3AE9B00F4CF1B /* CustomAnimationPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresentor.swift; sourceTree = "<group>"; };
+		E72DF84025E3AEA100F4CF1B /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
+		E72DF84325E403A200F4CF1B /* LearningInstagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningInstagram.entitlements; sourceTree = "<group>"; };
 		E7C870D525DCB66F00A25F07 /* LearningInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C870D825DCB66F00A25F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7C870DA25DCB66F00A25F07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +108,8 @@
 		E72DF79225E0D4AE00F4CF1B /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				E72DF84025E3AEA100F4CF1B /* CustomAnimationDismisser.swift */,
+				E72DF83D25E3AE9B00F4CF1B /* CustomAnimationPresentor.swift */,
 				E72DF7A625E0E74300F4CF1B /* CameraController.swift */,
 				E72DF83A25E39F5300F4CF1B /* PreviewPhotoContainerView.swift */,
 			);
@@ -147,6 +154,7 @@
 		E7C870D725DCB66F00A25F07 /* LearningInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				E72DF84325E403A200F4CF1B /* LearningInstagram.entitlements */,
 				E72DF79325E0D74300F4CF1B /* Model */,
 				E72DF79225E0D4AE00F4CF1B /* Camera */,
 				E7D0055E25DEB26D00ED006F /* AddPhoto */,
@@ -371,6 +379,7 @@
 			files = (
 				E7C8712225DD3A6A00A25F07 /* UserSearchController.swift in Sources */,
 				E72DF7A725E0E74300F4CF1B /* CameraController.swift in Sources */,
+				E72DF84125E3AEA100F4CF1B /* CustomAnimationDismisser.swift in Sources */,
 				E7C8711525DCD03A00A25F07 /* UIView.swift in Sources */,
 				E7C8712725DD510300A25F07 /* UserProfileController.swift in Sources */,
 				E72DF7AA25E0E9DD00F4CF1B /* UserSearchCell.swift in Sources */,
@@ -391,6 +400,7 @@
 				E7D0055C25DE6EF700ED006F /* HomePostCell.swift in Sources */,
 				E7C8710C25DCC8F400A25F07 /* SignUpController.swift in Sources */,
 				E7D0056725DEC15A00ED006F /* PhotoSelectorCell.swift in Sources */,
+				E72DF83E25E3AE9B00F4CF1B /* CustomAnimationPresentor.swift in Sources */,
 				E72DF79A25E0D76400F4CF1B /* Post.swift in Sources */,
 				E72DF7A425E0E45600F4CF1B /* Date.swift in Sources */,
 				E7C8711025DCCD6100A25F07 /* Theme.swift in Sources */,
@@ -543,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LearningInstagram/LearningInstagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LearningInstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -562,6 +573,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LearningInstagram/LearningInstagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LearningInstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
